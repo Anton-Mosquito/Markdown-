@@ -22,6 +22,7 @@ A clear description of what the bug is.
 - Version: [e.g. v2.1.0]
 - Node.js: [e.g. 20.x]
 
+
 ## Logs
 ```
 Paste relevant logs here
