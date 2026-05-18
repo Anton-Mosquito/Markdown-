@@ -8,6 +8,8 @@ Short description of what this endpoint does.
 
 ```json
 {
+    "page": 1,
+    "limit": 10
 }
 ```
 
