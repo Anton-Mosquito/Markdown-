@@ -15,10 +15,11 @@
 
 > [!IMPORTANT]
 > Make sure to follow the steps in order to set up the project correctly. If you encounter any issues, refer to the troubleshooting section in the documentation.
-
+>
 > [!NOTE]
-> Install Node.js before
+> Install Node.js before continuing. Download it from [Node.js](https://nodejs.org)
 
 ```bash
- npm install node
- ```
+# Verify Node.js is installed
+node --version
+```

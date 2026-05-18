@@ -1,8 +1,10 @@
-# `GET` /users
+# API Reference
+
+## `GET` /users
 
 Short description of what this endpoint does.
 
-**Request**
+### Request
 
 ```json
 {
@@ -26,7 +28,7 @@ Short description of what this endpoint does.
 
 Short description of what this endpoint does.
 
-**Request**
+### Request
 
 ```json
 {

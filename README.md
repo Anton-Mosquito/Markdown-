@@ -1,4 +1,4 @@
- ## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/)
+## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/) 
 
 <div>
   <h1 align="center">Project Name</h1>
@@ -37,8 +37,8 @@ A brief description of what the project does and its purpose.
 - [Api-Reference](./docs/api_reference.md)
 - [Troubleshooting](./docs/troubleshooting.md)
 - [Configuration](./docs/configuration.md)
-  - [Environment Variables](#environment-variables)
-  - [Database Setup](#database-setup)
+  - [Environment Variables](./docs/configuration.md#environment-variables)
+  - [Database Setup](./docs/configuration.md#database-setup)
 
 </details>  
 
