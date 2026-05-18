@@ -23,5 +23,5 @@ jobs:
           cache: npm
 
       - run: npm ci
-      - run: npx cspell "docs/**" "**/*.md" --exclude "**/node_modules/**"
-      - run: npx markdownlint-cli2 "docs/**" "**/*.md" --ignore "**/node_modules/**"
+      - run: npx cspell "docs/**" "**/*.md" --exclude "node_modules/**"
+      - run: npx markdownlint-cli2 "docs/**" "**/*.md" --ignore "node_modules/**"

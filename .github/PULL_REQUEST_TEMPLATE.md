@@ -18,6 +18,7 @@
 - [ ] README updated (if needed)
 - [ ] CHANGELOG entry added
 - [ ] API docs updated (if endpoints changed)
+- [ ] Code comments added/updated
 
 ## Screenshots (if UI changes)
 <!-- Drag and drop screenshots here -->
