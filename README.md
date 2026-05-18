@@ -26,7 +26,7 @@ A brief description of what the project does and its purpose.
 <details>
 <summary>Additional Information</summary>
 
-<!-- пустий рядок обов'язковий перед Markdown всередині -->
+<!--  empty string is mandatory before Markdown content -->
 
 - [Installation](./docs/getting_started.md)
 - [Contributing](./CONTRIBUTING.md) ![Contributing](https://img.shields.io/badge/Contributing-Welcome-brightgreen.svg)
@@ -42,7 +42,7 @@ A brief description of what the project does and its purpose.
 
 </details>  
 
-## Посилання на конкретний розділ іншого файлу
+## Link to Specific Section of Another File
 
 See [Configuration](./docs/configuration.md#environment-variables)
 See example get user endpoint in [API Reference](./docs/api-reference.md#get-users)
