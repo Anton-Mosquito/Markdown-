@@ -1,5 +1,9 @@
 ## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/) 
 
+[![Markdown quality](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml)
+[![Link check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml)
+[![Docs deploy](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml)
+[![Spelling check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml)
 
 <div>
   <h1 align="center">Project Name</h1>

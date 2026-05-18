@@ -9,6 +9,10 @@
   "scripts": {
     "lint:docs": "markdownlint **/*.md"
   },
+  "devDependencies": {
+    "cspell": "^10.0.0",
+    "markdownlint-cli2": "^0.22.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
