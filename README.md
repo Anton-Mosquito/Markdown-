@@ -1,4 +1,5 @@
-## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/) 
+[![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
+
 
 <div>
   <h1 align="center">Project Name</h1>
