@@ -1,4 +1,4 @@
-[![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
+## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/) 
 
 
 <div>
@@ -47,6 +47,7 @@ A brief description of what the project does and its purpose.
 
 See [Configuration](./docs/configuration.md#environment-variables)
 See example get user endpoint in [API Reference](./docs/api-reference.md#get-users)
+See actions [![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
 
 ## Shortcuts
 
