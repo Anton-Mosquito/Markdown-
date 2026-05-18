@@ -1,0 +1,33 @@
+name: cspell spell-check
+
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "**/*.md"
+  pull_request:
+    paths:
+      - "docs/**"
+      - "**/*.md"
+  workflow_dispatch:
+
+jobs:
+  spellcheck:
+    name: cspell
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install cspell
+        run: npm install -g cspell
+
+      - name: Run cspell
+        run: |
+          echo "Running cspell on documentation..."
+          cspell "docs/**" "**/*.md"
