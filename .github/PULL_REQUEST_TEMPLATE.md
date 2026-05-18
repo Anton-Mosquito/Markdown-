@@ -12,6 +12,7 @@
 - [ ] Unit tests pass (`npm test`)
 - [ ] Manual testing done
 - [ ] No regressions found
+- [ ] Test coverage maintained or improved
 
 ## Documentation
 - [ ] README updated (if needed)
