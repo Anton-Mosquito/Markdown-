@@ -1,3 +1,5 @@
+ ## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/)
+
 <div>
   <h1 align="center">Project Name</h1>
   <p align="center">A brief description of what the project does and its purpose.</p>
