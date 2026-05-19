@@ -1,45 +1,52 @@
 ## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/)
 
-[![Markdown quality](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml)
-[![Link check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml)
-[![Docs deploy](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml)
-[![Spelling check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml)
-
 <div>
   <h1 align="center">Project Name</h1>
   <p align="center">A brief description of what the project does and its purpose.</p>
-  <img src="https://img.shields.io/npm/last-update/24" alt="License">
+  <p align="center"><img src="https://img.shields.io/npm/last-update/24" alt="License"></p>
   <p align="center">
     <a href="./docs/getting_started.md">Installation</a> |
     <a href="./CONTRIBUTING.md">Contributing</a> |
-    <a href="./docs/license.md">License</a> |
+    <a href="./LICENSE">License</a> |
     <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a> |
     <a href="./CHANGELOG.md">Changelog</a> |
     <a href="./SECURITY.md">Security</a> |
-    <a href="./docs/api_reference.md">API Reference</a> |
+    <a href="./docs/api-reference.md">API Reference</a> |
     <a href="./docs/troubleshooting.md">Troubleshooting</a> |
     <a href="./docs/configuration.md">Configuration</a>
   </p>
+
+  [![Markdown quality](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml)
+  [![Link check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/link-check.yml)
+  [![Docs deploy](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/deploy-docs.yml)
+  [![Spelling check](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/cspell.yml)
+  <p align="center">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGd6NGpodXFrMTM1cXhkdnprejl3OTk5dm1wYXRodDFuYnlmOHA3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZr27ZbJwmjE9PGyLN/giphy.gif" alt="Animated project demo" width="720" />
+  </p>
 </div>
+
+---
+
+
 
 ## Description
 
 A brief description of what the project does and its purpose.
 
-## Documentation
+## Table of Contents
 
 <details>
-<summary>Additional Information</summary>
+<summary>List of documents</summary>
 
 <!--  empty string is mandatory before Markdown content -->
 
 - [Installation](./docs/getting_started.md)
 - [Contributing](./CONTRIBUTING.md) ![Contributing](https://img.shields.io/badge/Contributing-Welcome-brightgreen.svg)
-- [License](./docs/license.md) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+- [License](./LICENSE) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
 - [Changelog](./CHANGELOG.md)
 - [Security](./SECURITY.md)
-- [Api-Reference](./docs/api_reference.md)
+- [Api-Reference](./docs/api-reference.md)
 - [Troubleshooting](./docs/troubleshooting.md)
 - [Configuration](./docs/configuration.md)
   - [Environment Variables](./docs/configuration.md#environment-variables)
@@ -47,11 +54,52 @@ A brief description of what the project does and its purpose.
 
 </details>  
 
+
+## ✨ Features
+- **Fast** — processes 10k records/sec
+- **Type-safe** — full TypeScript support
+  - Auto-generated types from schema
+- **Zero dependencies** — only Node.js stdlib
+- [x] Production-ready
+- [x] 100% test coverage
+
+## Competitive comparison
+| Feature                    | Markdown- | MarkoWrite | DocSpark |
+| -------------------------- | --------- | ---------- | -------- |
+| Markdown-first docs        | ✅         | ⚠️          | ✅        |
+| Built-in workflow badges   | ✅         | ❌          | ⚠️        |
+| Zero external dependencies | ✅         | ❌          | ❌        |
+| TypeScript-friendly        | ✅         | ⚠️          | ✅        |
+| Fast static rendering      | ✅         | ✅          | ⚠️        |
+| Easy docs deployment       | ✅         | ✅          | ✅        |
+
+## Who uses this
+<p align="center">
+  <img src="https://via.placeholder.com/120x40?text=Acme+Inc" alt="Acme Inc" />
+  <img src="https://via.placeholder.com/120x40?text=Nimbus" alt="Nimbus" />
+  <img src="https://via.placeholder.com/120x40?text=PixelWorks" alt="PixelWorks" />
+  <img src="https://via.placeholder.com/120x40?text=Quantum+Co" alt="Quantum Co" />
+</p>
+
 ## Link to Specific Section of Another File
 
 - See [Configuration](./docs/configuration.md#environment-variables)
 - See example get user endpoint in [API Reference](./docs/api-reference.md#get-users)
 - See actions [![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
+
+## 🚀 Installation
+```bash
+npm install my-project
+```
+> [!NOTE]
+> Requires Node.js v18+. See [prerequisites](#prerequisites).
+
+## Quick Start
+```javascript
+import { createClient } from 'my-project';
+const client = createClient({ apiKey: 'YOUR_KEY' });
+const result = await client.fetch('/users');
+```
 
 ## Shortcuts
 
@@ -60,61 +108,4 @@ A brief description of what the project does and its purpose.
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> - Show All Commands</br>
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> - Go to Symbol</br>
 
-```mermaid
-erDiagram
-    USER {
-        int    id      PK
-        string email   UK
-        string name
-        date   created_at
-    }
-    POST {
-        int    id        PK
-        int    author_id FK
-        string title
-        text   content
-        bool   published
-    }
-    COMMENT {
-        int    id      PK
-        int    post_id FK
-        int    user_id FK
-        text   body
-    }
 
-    USER  ||--o{ POST    : "writes"
-    POST  ||--o{ COMMENT : "has"
-    USER  ||--o{ COMMENT : "leaves"
-```
-
-```mermaid
-gantt
-    title Project Roadmap Q3-Q4
-    dateFormat  YYYY-MM-DD
-    section Backend
-        Auth API         :done,    auth,  2025-07-01, 2025-07-14
-        REST Endpoints   :done,    rest,  2025-07-10, 2025-07-28
-        WebSocket        :active,  ws,    2025-07-25, 2025-08-10
-        GraphQL          :         gql,   2025-08-05, 2025-08-25
-    section Frontend
-        Login UI         :done,           2025-07-15, 2025-07-20
-        Dashboard        :active,         2025-07-20, 2025-08-12
-        Mobile app       :crit,           2025-08-10, 2025-09-01
-```
-
-```mermaid
-gitGraph
-    commit id: "init"
-    branch develop
-    checkout develop
-    commit id: "feat: auth"
-    commit id: "feat: api"
-    branch feature/payments
-    checkout feature/payments
-    commit id: "add stripe"
-    commit id: "add webhooks"
-    checkout develop
-    merge feature/payments id: "merge payments"
-    checkout main
-    merge develop id: "v1.0.0" tag: "v1.0.0"
-```
