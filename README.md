@@ -1,8 +1,8 @@
-## [Link to Documentation](https://anton-mosquito.github.io/Markdown-/)
+# [Link to Documentation](https://anton-mosquito.github.io/Markdown-/)
 
 <div>
-  <h1 align="center">Project Name</h1>
-  <p align="center">A brief description of what the project does and its purpose.</p>
+  <h1 align="center">Markdown</h1>
+  <p align="center">A lightweight documentation toolkit for developers — write once, deploy everywhere.</p>
   <p align="center"><img src="https://img.shields.io/npm/last-update/24" alt="License"></p>
   <p align="center">
     <a href="./docs/getting_started.md">Installation</a> |
@@ -31,7 +31,7 @@
 
 ## Description
 
-A brief description of what the project does and its purpose.
+A lightweight documentation toolkit for developers — write once, deploy everywhere.
 
 ## Table of Contents
 
@@ -40,19 +40,34 @@ A brief description of what the project does and its purpose.
 
 <!--  empty string is mandatory before Markdown content -->
 
-- [Installation](./docs/getting_started.md)
-- [Contributing](./CONTRIBUTING.md) ![Contributing](https://img.shields.io/badge/Contributing-Welcome-brightgreen.svg)
-- [License](./LICENSE) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-- [Code of Conduct](./CODE_OF_CONDUCT.md)
-- [Changelog](./CHANGELOG.md)
-- [Security](./SECURITY.md)
-- [Api-Reference](./docs/api-reference.md)
-- [Troubleshooting](./docs/troubleshooting.md)
-- [Configuration](./docs/configuration.md)
-  - [Environment Variables](./docs/configuration.md#environment-variables)
-  - [Database Setup](./docs/configuration.md#database-setup)
+- [Link to Documentation](#link-to-documentation)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Link to additional sections](#link-to-additional-sections)
+  - [✨ Features](#-features)
+  - [Competitive comparison](#competitive-comparison)
+  - [Who uses this](#who-uses-this)
+  - [🚀 Installation](#-installation)
+  - [Quick Start](#quick-start)
+  - [Shortcuts](#shortcuts)
 
 </details>  
+
+---
+
+## Link to additional sections
+- See [Installation](./docs/getting_started.md)
+- See [Contributing](./CONTRIBUTING.md) ![Contributing](https://img.shields.io/badge/Contributing-Welcome-brightgreen.svg)
+- See [License](./LICENSE) ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+- See [Code of Conduct](./CODE_OF_CONDUCT.md)
+- See [Changelog](./CHANGELOG.md)
+- See [Security](./SECURITY.md)
+- See example get user endpoint in  [Api-Reference](./docs/api-reference.md)
+- See [Troubleshooting](./docs/troubleshooting.md)
+- See [Configuration](./docs/configuration.md)
+- See [Environment Variables](./docs/configuration.md#environment-variables)
+- See [Database Setup](./docs/configuration.md#database-setup)
+- See actions [![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
 
 
 ## ✨ Features
@@ -80,12 +95,6 @@ A brief description of what the project does and its purpose.
   <img src="https://via.placeholder.com/120x40?text=PixelWorks" alt="PixelWorks" />
   <img src="https://via.placeholder.com/120x40?text=Quantum+Co" alt="Quantum Co" />
 </p>
-
-## Link to Specific Section of Another File
-
-- See [Configuration](./docs/configuration.md#environment-variables)
-- See example get user endpoint in [API Reference](./docs/api-reference.md#get-users)
-- See actions [![Docs CI](https://github.com/Anton-Mosquito/Markdown-/actions/workflows/docs-lint.yml/badge.svg)](https://github.com/Anton-Mosquito/Markdown-/actions)
 
 ## 🚀 Installation
 ```bash

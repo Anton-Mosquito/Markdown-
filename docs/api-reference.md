@@ -1,18 +1,9 @@
 # API Reference
 
-## `GET /users`
+## `GET /users?page=1&limit=10&search=john`
 
 Retrieve a paginated list of users.
 
-### Request
-
-```json
-{
-  "page": 1,
-  "limit": 10,
-  "search": "john"
-}
-```
 
 **Response** `200 OK`
 
@@ -57,7 +48,7 @@ Authenticate a user and return an access token.
 ```json
 {
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "expireµsIn": 3600,
+  "expiresIn": 3600,
   "refreshToken": "dGhpcy1pcy1hLXJlZnJlc2gtdG9rZW4=",
   "user": {
     "id": "1",
@@ -97,7 +88,7 @@ Retrieve a single user by ID.
 
 ### Request
 
-```
+```json
 GET /users/12345
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
@@ -144,7 +135,7 @@ Remove a user from the system.
 
 ### Request
 
-```
+```json
 DELETE /users/12345
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
